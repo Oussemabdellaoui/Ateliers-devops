@@ -6,7 +6,7 @@ pipeline {
   stages {
       stage('GIT') {
         steps {
-          git branche: 'master'
+          git branch: 'master'
           url: 'https://github.com/Oussemabdellaoui/Ateliers-devops.git'
           }
     }
